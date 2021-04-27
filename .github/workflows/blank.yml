@@ -5,10 +5,10 @@ name: CI
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master ]
+  push:{"nodes":[{"id":1,"callFrame":{"functionName":"(root)","scriptId":"0","url":"","lineNumber":-1,"columnNumber":-1},"hitCount":0,"children":[2]},{"id":2,"callFrame
+    branches: [  howeecross:patch-1]
   pull_request:
-    branches: [ master ]
+    branches: [ howeecross:patch-1]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -31,6 +31,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: |
+        run: [![CI](https://github.com/howeecross/hcoinx2012/actions/workflows/blank.yml/badge.svg?branch=master&event=create)](https://github.com/howeecross/hcoinx2012/actions/workflows/blank.yml)
           echo Add other actions to build,
           echo test, and deploy your project.
