@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:{"nodes":[{"id":1,"callFrame":{"functionName":"(root)","scriptId":"0","url":"","lineNumber":-1,"columnNumber":-1},"hitCount":0,"children":[2]},{"id":2,"callFrame
-    branches: [ master ]
+    branches: [  howeecross:patch-1]
   pull_request:
-    branches: [ master ]
+    branches: [ howeecross:patch-1]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
